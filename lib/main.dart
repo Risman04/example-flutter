@@ -1,9 +1,12 @@
-import 'package:example/column.dart';
+import 'package:example/list_view/list_view.dart';
+import 'package:example/list_view/list_view_builder.dart';
 import 'package:example/column.dart';
 import 'package:example/container_widget.dart';
 import 'package:example/latihan1.dart';
 import 'package:example/row_widget.dart';
 import 'package:flutter/material.dart';
+
+
 
 void main() {
   runApp(MyApp());
@@ -35,11 +38,14 @@ class MyApp extends StatelessWidget {
             //   padding: EdgeInsets.only(top: 40)
             // ),
             // ContainerWidget(),
-            LatihanWidget(),
+            // LatihanWidget(),
             // Padding(
             //   padding: EdgeInsets.only(top: 40)
             // ),
             // LatihanWidget2()
+            //////////////////////////////////////////////////////////////
+            ListViewWidget(),
+            ListViewBuilderWidget(),
           ],
         )
         
